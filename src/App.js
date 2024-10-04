@@ -41,7 +41,7 @@ function App() {
 
       <div className="flex justify-between gap-8">
         {/* Quote Display Section */}
-        <div className="w-1/2 h-80 p-6 border border-gray-300 rounded-lg shadow-lg bg-gray-100">
+        <div className="w-1/2 h-80 sm:h-1/2 p-6 border border-gray-300 rounded-lg shadow-lg bg-gray-100">
           <h2 className="text-2xl font-semibold mb-4">Random Quote</h2>
           <p className="text-lg italic mb-6">"{quote}"</p>
           <button
